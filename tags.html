@@ -20,11 +20,11 @@ header-img: "img/tag-bg.jpg"
 </header>
 
 <!-- Main Content -->
-<!--div class="container">
+<div class="container">
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <!-- 标签云 -->
-			<!--div id='tag_cloud' class="tags">
+			<div id='tag_cloud' class="tags">
 				{% for tag in site.tags %}
 				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
 				{% endfor %}
@@ -38,7 +38,7 @@ header-img: "img/tag-bg.jpg"
 
             <!-- 标签列表 -->
 			{% for tag in site.tags %}
-			<!--div class="one-tag-list">
+			<div class="one-tag-list">
 			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
                     <span class="tag-text">{{ tag[0] }}</span>
                 </span>
@@ -59,7 +59,7 @@ header-img: "img/tag-bg.jpg"
 				        {% endif %}
 				    </a>
 				    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
-				<!--/div>
+				</div>
 				<hr>
 				{% endfor %}
 			</div>
